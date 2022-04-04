@@ -11,11 +11,14 @@
 }
 
 body {
+    background: var(--clr);
+}
+
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    background: var(--clr);
+    min-height: 89vh;
 }
 
 .navigation {
@@ -136,4 +139,13 @@ body {
 
 .navigation ul li:nth-child(5).active~.indicator {
     transform: translateX(calc(70px * 4));
+}
+
+.desenvolvido {
+    width: 400px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
 }
